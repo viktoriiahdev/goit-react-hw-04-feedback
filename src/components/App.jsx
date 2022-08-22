@@ -1,16 +1,18 @@
+import { Box } from './Box';
+import { Feedback } from './Feedback/Feedback';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
+    <Box
+      display="flex"
+      // alignItems="flex-start"
+      alignItems="center"
+      justifyContent="center"
+      minHeight="100vh"
+      // pt={60}
+      as="main"
     >
-      React homework template
-    </div>
+      <Feedback />
+    </Box>
   );
 };
