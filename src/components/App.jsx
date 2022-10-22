@@ -3,15 +3,7 @@ import { Feedback } from './Feedback/Feedback';
 
 export const App = () => {
   return (
-    <Box
-      display="flex"
-      // alignItems="flex-start"
-      alignItems="center"
-      justifyContent="center"
-      minHeight="100vh"
-      // pt={60}
-      as="main"
-    >
+    <Box display="flex" alignItems="center" justifyContent="center" minHeight="100vh" as="main">
       <Feedback />
     </Box>
   );
